@@ -1,0 +1,31 @@
+/* Direction A: Minimal Editorial. All component colors, spacing, type, radii and shadows derive from here. */
+:root {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-ui: 'DM Sans', Arial, sans-serif;
+  --font-xs: 0.75rem; --font-sm: 0.875rem; --font-md: 1rem; --font-lg: 1.25rem;
+  --font-xl: 1.5rem; --font-2xl: 2rem; --font-3xl: 3rem;
+  --s1: 8px; --s2: 16px; --s3: 24px; --s4: 32px; --s6: 48px; --s8: 64px; --s10: 80px; --s12: 96px;
+  --radius-sm: 4px; --radius-md: 8px; --radius-lg: 16px;
+  --shadow-sm: 0 2px 12px rgb(33 35 36 / .07); --shadow-lg: 0 20px 60px rgb(29 28 26 / .14);
+  --accent: #a74329; --accent-hover: #8d311b; --accent-soft: #faebe4;
+  --danger: #b72d34; --success: #146f4c; --warning: #94620d;
+  --ink: #24211e; --ink-soft: #55514d; --muted: #716c65;
+  --border: #d9d3ca; --border-subtle: #e8e3dc;
+  --surface: #fffdfa; --surface-alt: #f1ece5; --background: #f9f6f0;
+  --overlay: rgb(25 22 21 / .58); --on-accent: #fffaf4;
+  --banner-bg: #a74329; --banner-ink: #fffaf4; --banner-muted: #fff0e7;
+  --banner-btn-ink: #53301f; --banner-btn-hover: #f6dccd;
+  color-scheme: light;
+}
+[data-theme='dark'] {
+  --accent: #ee9477; --accent-hover: #ffc2a8; --accent-soft: #362620;
+  --danger: #ff858d; --success: #7bdab2; --warning: #eed08b;
+  --ink: #f3eee7; --ink-soft: #d1c7bf; --muted: #b4aba2;
+  --border: #595148; --border-subtle: #453f39;
+  --surface: #242320; --surface-alt: #2f2c28; --background: #1b1a18;
+  --overlay: rgb(0 0 0 / .76); --on-accent: #201710;
+  --banner-bg: #a74329; --banner-ink: #fffaf4; --banner-muted: #fff0e7;
+  --banner-btn-ink: #53301f; --banner-btn-hover: #f6dccd;
+  --shadow-sm: 0 2px 14px rgb(0 0 0 / .14); --shadow-lg: 0 20px 60px rgb(0 0 0 / .35);
+  color-scheme: dark;
+}

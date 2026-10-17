@@ -1,0 +1,27 @@
+{
+  "name": "mrinmoy-shib-portfolio-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:syntax": "node scripts/check-syntax.mjs",
+    "verify:contract": "node scripts/verify-contract.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "axios": "^1.8.0",
+    "@tanstack/react-query": "^5.69.0",
+    "lucide-react": "^0.468.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.2.0",
+    "typescript": "^5.7.0"
+  }
+}
